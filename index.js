@@ -16,7 +16,7 @@ require("./config/dattabase").connect();
 const user = require("./routes/user");
 app.use("/api/v1",user);
 
-//Activate
+//Server Activate
 
 app.listen(PORT,()=>{
     console.log(`App is running ar ${PORT}`);
